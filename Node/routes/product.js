@@ -4,10 +4,10 @@ const app = express.Router();
 const config = require("config");
 
 const connectionSet = {
-  server: config.get("connSetting.server"), // Assuming the "host" config is for server
-  database: config.get("connSetting.database"),
-  user: config.get("connSetting.user"),
-  password: config.get("connSetting.password"),
+  server: config.connSetting.server, // Assuming the "host" config is for server
+  database: config.connSetting.database,
+  user: config.connSetting.user,
+  password: config.connSetting.password,
   options: {
     trustServerCertificate: true,
   },
