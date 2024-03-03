@@ -1,0 +1,17 @@
+{
+    "PORT": 5000,
+    "connSetting": {
+                    "server":"crm.vishwatechnologies.com",
+                    "database":"EComm",
+                    "driver": "msnodesqlv8",
+                    "user":"sa",
+                    "password": "vtpl@123"
+                   }
+                   ,
+    "options": {
+
+                    "encrypt": false 
+                
+                }
+
+}
